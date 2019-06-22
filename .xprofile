@@ -1,4 +1,4 @@
-feh --bg-fill ~/hy7rqjzx67l01.jpg
+setbg &
 xcompmgr -o .9 &
 sxhkd &
 slstatus&
