@@ -1,4 +1,5 @@
-setbg &
+setbg 
+dunst&
 xcompmgr -o .9 &
 sxhkd &
 slstatus&
