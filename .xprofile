@@ -2,6 +2,6 @@ setbg
 dunst&
 xcompmgr -o .9 &
 sxhkd &
-slstatus&
+sudo slstatus&
 numlockx &
 flameshot &
