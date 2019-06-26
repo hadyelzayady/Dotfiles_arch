@@ -1,4 +1,4 @@
-setbg 
+#!/bin/sh
 dunst&
 xcompmgr -o .9 &
 sxhkd &
@@ -8,4 +8,5 @@ sudo slstatus&
 numlockx &
 flameshot &
 xset r rate 250 30
-xautolock -time 1 -locker i3lock -i ~/.config/lockimage.png -t
+xautolock -time 1 -locker i3lock -i ~/.config/lockimage.png -t &
+setbg 
