@@ -1,8 +1,7 @@
 #!/bin/bash
 # Profile file. Runs on login.xport 
-echo hello_profile
-export PATH="$PATH:/home/hady/scripts"
-export TERM="st"
+export PATH="$PATH:/home/hady/scripts:/home/hady/.local/bin"
+export TERMINAL="st"
 export BROWSER="firefox"
 export FILE="thunar"
 export EDITOR="nvim"
