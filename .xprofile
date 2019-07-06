@@ -9,5 +9,5 @@ slstatus&
 numlockx &
 flameshot &
 xset r rate 250 30
-xautolock -time 1 -locker i3lock -i ~/.config/lockimage.png -t &
+#xautolock  -locker i3lock -i ~/.config/lockimage.png -t &
 wmname LG3D # to open java applications like Datagrip
