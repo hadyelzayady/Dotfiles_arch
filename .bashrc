@@ -8,3 +8,5 @@
 #PS1='[\u@\h \W]\$ '
 #[ -n "$XTERM_VERSION" ] && transset-df --id "$WINDOWID" >/dev/null
 exec fish
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
