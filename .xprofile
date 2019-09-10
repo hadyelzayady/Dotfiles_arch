@@ -4,10 +4,12 @@ dunst&
 xcompmgr -o .9 &
 copyq &
 sxhkd &
-clipmenud &
+nm-applet &
+#clipmenud &
+clight & #to auto set birghtness level based on the surround light
 slstatus&
 numlockx &
 flameshot &
 xset r rate 250 30
 #xautolock  -locker i3lock -i ~/.config/lockimage.png -t &
-wmname LG3D # to open java applications like Datagrip
+#wmname LG3D # to open java applications like Datagrip
