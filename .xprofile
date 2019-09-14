@@ -1,12 +1,11 @@
 #!/bin/bash
-setbg 
+setbg $
 dunst&
 xcompmgr -o .9 &
 copyq &
 sxhkd &
 nm-applet &
 #clipmenud &
-clight & #to auto set birghtness level based on the surround light
 slstatus&
 numlockx &
 flameshot &
