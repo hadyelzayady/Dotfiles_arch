@@ -1,5 +1,5 @@
 #!/bin/bash
-# Profile file. Runs on login.xport 
+# Profile file. Runs on login.xport
 export PATH="$PATH:/home/hady/scripts:/home/hady/.local/bin:$HOME/dotnet"
 export TERMINAL="st"
 export BROWSER="firefox"
@@ -8,6 +8,7 @@ export EDITOR="nvim"
 export BG="hy7rqjzx67l01.jpg"
 export SUDO_ASKPASS="$HOME/scripts/dmenupass"
 export DOTNET_CLI_TELEMETRY_OPTOUT=1 # disable .net telemetry
+export ZDOTDIR="$HOME/.config/zsh"
 #export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.105/Sdks/";
 #export DOTNET_ROOT=$HOME/dotnet
 #start dwm if tty1 and dwm not running
