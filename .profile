@@ -2,7 +2,7 @@
 # Profile file. Runs on login.xport
 export PATH="$PATH:/home/hady/scripts:/home/hady/.local/bin:$HOME/dotnet"
 export TERMINAL="st"
-export BROWSER="opera"
+export BROWSER="firefox"
 export FILE="thunar"
 export EDITOR="nvim"
 export BG="hy7rqjzx67l01.jpg"
