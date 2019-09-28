@@ -1,5 +1,6 @@
 /*
 !.xinitrc
+.calcurse/.daemon.pid
 !.profile
 !.xprofile
 !.bashrc
@@ -7,3 +8,4 @@
 !.gitignore
 !.inputrc
 !.calcurse
+.calcurse/todo
