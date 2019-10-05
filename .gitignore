@@ -9,3 +9,6 @@
 !.inputrc
 !.calcurse
 .calcurse/todo
+.calcurse/apts
+.calcurse/caldav/oauth2_cred
+.calcurse/caldav/sync.db
