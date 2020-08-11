@@ -1,12 +1,13 @@
 #!/bin/bash
+dwmblocks &
 setbg $
+sxhkd &
 dunst&
 xcompmgr -o .9 &
-copyq &
-sxhkd &
-nm-applet &
+# copyq &
+# nm-applet &
 #clipmenud &
-slstatus&
+# slstatus&
 numlockx &
 flameshot &
 xset r rate 250 30

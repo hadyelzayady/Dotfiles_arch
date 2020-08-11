@@ -1,7 +1,7 @@
 #!/bin/bash
 # Profile file. Runs on login.xport
-export PATH="$PATH:/home/hady/scripts:/home/hady/.local/bin:$HOME/dotnet"
-export TERMINAL="st"
+export PATH="$PATH:$HOME/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$HOME/dotnet"
+export TERMINAL="alacritty"
 export BROWSER="firefox"
 export FILE="thunar"
 export EDITOR="nvim"
