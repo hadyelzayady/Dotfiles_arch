@@ -2,9 +2,10 @@
 dwmblocks &
 setbg $
 sxhkd &
-dunst&
+dunst &
 xcompmgr -o .9 &
-# copyq &
+copyq &
+# anamnesis --start &
 # nm-applet &
 #clipmenud &
 # slstatus&
