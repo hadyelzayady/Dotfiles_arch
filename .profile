@@ -16,7 +16,7 @@ export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat 
 
 # preview command in preview window to show long commands
 export FZF_CTRL_R_OPTS="--height 50% --preview 'echo {}' --preview-window down:3:wrap"
-# export GTK_THEME="Adwaita:dark"
+export GTK_THEME="Adwaita:dark"
 #export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.105/Sdks/";
 #export DOTNET_ROOT=$HOME/dotnet
 #start dwm if tty1 and dwm not running
