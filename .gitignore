@@ -9,6 +9,7 @@
 !.gitignore
 !.inputrc
 !.calcurse
+!install.sh
 .calcurse/todo
 .calcurse/apts
 .calcurse/caldav/oauth2_cred
