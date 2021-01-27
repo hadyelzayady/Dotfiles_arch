@@ -1,1 +1,0 @@
-/home/hady/.bash/init
