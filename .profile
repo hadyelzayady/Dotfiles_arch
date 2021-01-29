@@ -20,6 +20,7 @@ export FZF_CTRL_R_OPTS="--height 50% --preview 'echo {}' --preview-window down:3
 export GTK_THEME="Adwaita:dark"
 #export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.105/Sdks/";
 #export DOTNET_ROOT=$HOME/dotnet
+source "$HOME/.cargo/env"
 #start dwm if tty1 and dwm not running
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x dwm >/dev/null && exec startx
 #exec replaces the current script so the next line will be executed if the above one failed
