@@ -1,6 +1,6 @@
 #!/bin/sh
 #xrandr --setprovideroutputsource modesetting NVIDIA-0
-#xrandr --auto
+xrandr --auto
 [ -f "$HOME/.xprofile" ] && . ~/.xprofile
 exec dwm
 # bspwm
