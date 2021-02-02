@@ -1,4 +1,6 @@
 #!/bin/sh
+prime-offload
+xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto
 [ -f "$HOME/.xprofile" ] && . ~/.xprofile
 exec dwm
