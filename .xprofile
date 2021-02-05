@@ -1,4 +1,5 @@
 #!/bin/bash
+# starting dwmblocks moved to dwm repos (dwm now is the one who starts dwmblocks)
 # dwmblocks &
 setbg $
 sxhkd &
