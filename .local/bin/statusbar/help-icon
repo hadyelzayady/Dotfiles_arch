@@ -6,8 +6,8 @@
 restartwm() { pkill -HUP dwm ;}
 
 case $BLOCK_BUTTON in
-	1) notify-send "❓ Help module" "\- Left click to open LARBS guide.
-- Middle click to refresh window manager." ;;
+	1) notify-send "❓ Help module" "\- right click to refresh window manager..
+- Middle click to edit the script." ;;
 	2) "$TERMINAL" -e "$EDITOR" "$0" ;;
 	3) restartwm ;;
 esac; echo "❓"

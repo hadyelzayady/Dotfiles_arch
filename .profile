@@ -3,7 +3,7 @@
 export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$HOME/dotnet"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
-export FILE="thunar"
+export FILE="ranger"
 export EDITOR="nvim"
 export BG="hy7rqjzx67l01.jpg"
 export SUDO_ASKPASS="$HOME/.local/bin/scripts/dmenupass"
