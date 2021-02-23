@@ -1,6 +1,6 @@
 #!/bin/bash
 cd
-sudo pacman -Sy git xorg xorg-xinit sxhkd npm nvidia
+sudo pacman -Sy git xorg xorg-xinit sxhkd npm nvidia wmname
 yay -S optimus-manager
 git clone https://github.com/hadyelzayady/dwm.git
 (cd dwm && sudo make clean install)
