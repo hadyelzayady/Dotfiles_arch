@@ -1,4 +1,6 @@
 #!/bin/bash
+# autorandr for multimontiro
+autorandr --change
 setbg $
 sxhkd &
 dunst &
