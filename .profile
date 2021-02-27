@@ -1,6 +1,7 @@
 #!/bin/bash
 # Profile file. Runs on login.xport
 export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$HOME/dotnet"
+export MOUNT_PATH="/media"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
 export FILE="ranger"

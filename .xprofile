@@ -10,5 +10,6 @@ numlockx &
 flameshot &
 xset r rate 250 30
 lockscreen
+udiskie &
 # to lock screen when suspend or hibernate
 xss-lock -- lockscreen &
