@@ -11,5 +11,7 @@ flameshot &
 xset r rate 250 30
 lockscreen
 udiskie &
+# copying url from passmenu won't work correctly without executing setxkbmap, I don not know why the hell is that
+setxkbmap&
 # to lock screen when suspend or hibernate
 xss-lock -- lockscreen &
