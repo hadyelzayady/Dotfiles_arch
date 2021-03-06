@@ -1,6 +1,8 @@
 #!/bin/bash
+# Ruby
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 # Profile file. Runs on login.xport
-export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$HOME/dotnet"
+export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$HOME/dotnet:$GEM_HOME/bin"
 export MOUNT_PATH="/media"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
@@ -11,6 +13,7 @@ export SUDO_ASKPASS="$HOME/.local/bin/scripts/dmenupass"
 export SSH_ASKPASS="$HOME/.local/bin/scripts/dmenupass"
 export DOTNET_CLI_TELEMETRY_OPTOUT=1 # disable .net telemetry
 export ZDOTDIR="$HOME/.config/zsh"
+
 #default config file
 export XDG_CONFIG_HOME="$HOME/.config"
 
