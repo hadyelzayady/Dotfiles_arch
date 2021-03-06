@@ -26,7 +26,6 @@ general.firstdayofweek=sunday
 general.multipledays=yes
 general.periodicsave=0
 general.systemevents=yes
-general.systemdialogs=no
 notification.command=dunstify '\a'
 notification.notifyall=flagged-only
 notification.warning=300
