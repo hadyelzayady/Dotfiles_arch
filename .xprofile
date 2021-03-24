@@ -16,3 +16,4 @@ setxkbmap&
 # to lock screen when suspend or hibernate
 xss-lock -- lockscreen &
 dropbox &
+mailspring --background &
