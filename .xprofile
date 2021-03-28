@@ -17,3 +17,7 @@ setxkbmap&
 xss-lock -- lockscreen &
 dropbox &
 mailspring --background &
+# as rofi can be started with sudo, if we first start rofi with sudo, rofi won't run with another user
+#because the /run/user/1000/rofi.pid file would be owned by root. so we must start rofi normmally so when we start rofi with sudo the pid file
+# still owned by the normmal user
+rofi &
