@@ -14,10 +14,12 @@ udiskie &
 # copying url from passmenu won't work correctly without executing setxkbmap, I don not know why the hell is that
 setxkbmap&
 # to lock screen when suspend or hibernate
-# xss-lock -- lockscreen &
-dropbox &
+xss-lock -- lockscreen &
 # mailspring --background &
 # as rofi can be started with sudo, if we first start rofi with sudo, rofi won't run with another user
 #because the /run/user/1000/rofi.pid file would be owned by root. so we must start rofi normmally so when we start rofi with sudo the pid file
 # still owned by the normmal user
 rofi &
+# cloud storage at startup
+dropbox &
+rclone mount google-drive: $HOME/cloudstorage/gdrive  --file-perms=0777 --vfs-cache-mode full --daemon &
