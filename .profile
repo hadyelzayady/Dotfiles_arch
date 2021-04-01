@@ -2,7 +2,7 @@
 # Ruby
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 # Profile file. Runs on login.xport
-export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$HOME/dotnet:$GEM_HOME/bin"
+export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$GEM_HOME/bin"
 export MOUNT_PATH="/media"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
@@ -24,8 +24,8 @@ export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat 
 # preview command in preview window to show long commands
 export FZF_CTRL_R_OPTS="--height 50% --preview 'echo {}' --preview-window down:3:wrap"
 export GTK_THEME="Adwaita:dark"
-#export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.105/Sdks/";
-#export DOTNET_ROOT=$HOME/dotnet
+# export MSBuildSDKsPath="/opt/dotnet/sdk/2.2.105/Sdks/";
+export DOTNET_ROOT=/opt/dotnet
 source "$HOME/.cargo/env"
 #start dwm if tty1 and dwm not running
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x dwm >/dev/null && exec startx
