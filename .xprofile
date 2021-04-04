@@ -22,4 +22,4 @@ xss-lock -- lockscreen &
 rofi &
 # cloud storage at startup
 dropbox &
-rclone mount google-drive: $HOME/cloudstorage/gdrive  --file-perms=0777 --vfs-cache-mode full --daemon &
+rclone mount gdrive: $HOME/cloudstorage/gdrive  --file-perms=0777 --vfs-cache-mode full --daemon &
