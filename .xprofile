@@ -21,5 +21,6 @@ xss-lock -- lockscreen &
 # still owned by the normmal user
 rofi &
 # cloud storage at startup
-dropbox &
+# dropbox &
 rclone mount gdrive: $HOME/cloudstorage/gdrive  --file-perms=0777 --vfs-cache-mode full --daemon &
+# rclone mount gphotos: $HOME/cloudstorage/googlephotos --file-perms=0777 --vfs-cache-mode full --daemon &
