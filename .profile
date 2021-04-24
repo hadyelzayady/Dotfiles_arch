@@ -13,7 +13,7 @@ export SUDO_ASKPASS="$HOME/.local/bin/scripts/dmenupass"
 export SSH_ASKPASS="$HOME/.local/bin/scripts/dmenupass"
 export DOTNET_CLI_TELEMETRY_OPTOUT=1 # disable .net telemetry
 export ZDOTDIR="$HOME/.config/zsh"
-
+export FLASHCARDSDIR="$HOME/learn/flashcards"
 #default config file
 export XDG_CONFIG_HOME="$HOME/.config"
 
