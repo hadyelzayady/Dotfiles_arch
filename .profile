@@ -16,6 +16,7 @@ export ZDOTDIR="$HOME/.config/zsh"
 export FLASHCARDSDIR="$HOME/learn/flashcards"
 #default config file
 export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
 
 # fzf config
 #preview the content of the file under the cursor
