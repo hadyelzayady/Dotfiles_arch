@@ -26,7 +26,7 @@ InsecureSSL = No
 # of calcurse for more details. Set this option to "cal" if the configured
 # CalDAV server doesn't support tasks, such as is the case with Google
 # Calendar.
-SyncFilter = cal,event,apt,recur-event,recur-apt,recur
+SyncFilter = cal,event,apt,recur-event,recur-apt,todo,recur
 
 # Disable this option to actually enable synchronization. If it is enabled,
 # nothing is actually written to the server or to the local data files. If you
@@ -50,13 +50,12 @@ Verbose = Yes
 # Use the following to synchronize with an OAuth2-based service
 # such as Google Calendar.
 [OAuth2]
-ClientID = 553613923318-sjsnb2b0ch9d2u4tiq8akkepijm2lmkn.apps.googleusercontent.com
-ClientSecret = DwdZdpOvXBbToOZCOV7T-Cx-
+ClientID = 42390219229-bcto9ngf0l71hl13487a9u48ktknp2ng.apps.googleusercontent.com
+ClientSecret = hydJtKLPPpkvG3KSmUBKyuYe
 
 
 # Scope of access for API calls. Synchronization requires read/write.
 Scope = https://www.googleapis.com/auth/calendar
-
 # Change the redirect URI if you receive errors, but ensure that it is identical
 # to the redirect URI you specified in the API settings.
 #RedirectURI = http://127.0.0.1
