@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+ # Unable to load global extension at /home/geeker/.config/coc/extensions/node_modules/coc-ccls: main file ./lib/extension.js not found, you may need to build the project.
+ #
+cd ~/.config/coc/extensions/node_modules/coc-ccls
+ln -s node_modules/ws/lib lib
