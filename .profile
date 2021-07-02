@@ -2,7 +2,7 @@
 # Ruby
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 # Profile file. Runs on login.xport
-export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$GEM_HOME/bin:$HOME/go/bin"
+export PATH="$HOME/.local/bin/scripts:$HOME/.local/bin:$HOME/.local/bin/statusbar:$GEM_HOME/bin:$HOME/go/bin:$PATH"
 export GOPATH="$HOME/go:$HOME/learn/CP/leetcode"
 export MOUNT_PATH="/media"
 export TERMINAL="alacritty"
