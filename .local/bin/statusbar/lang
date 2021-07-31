@@ -1,2 +1,0 @@
-#!/bin/sh
-xkblayout-state print "%s\n" | head -c 2

@@ -10,11 +10,3 @@
 !.calcurse
 !install.sh
 !common_problems_fixes/
-.calcurse/todo
-.calcurse/apts
-.calcurse/caldav/oauth2_cred
-.calcurse/caldav/sync.db
-.calcurse/.calcurse.pid
-.calcurse/notes/
-.calcurse/.daemon.pid
-go
