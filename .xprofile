@@ -1,5 +1,6 @@
 #!/bin/bash
 # autorandr for multimontiro
+goblocks &
 autorandr --change
 setbg $
 sxhkd &
@@ -22,5 +23,5 @@ xss-lock -- lockscreen &
 rofi &
 # cloud storage at startup
 # dropbox &
-rclone mount gdrive: /media/cloudstorage/gdrive  --file-perms=0777 --vfs-cache-mode full --daemon &
+# rclone mount gdrive: /media/cloudstorage/gdrive  --file-perms=0777 --vfs-cache-mode full --daemon &
 # rclone mount gphotos: $HOME/cloudstorage/googlephotos --file-perms=0777 --vfs-cache-mode full --daemon &
