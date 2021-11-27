@@ -13,7 +13,6 @@ export EDITOR="nvim"
 export BG="hy7rqjzx67l01.jpg"
 export SUDO_ASKPASS="$HOME/.local/bin/scripts/dmenupass"
 export SSH_ASKPASS="$HOME/.local/bin/scripts/dmenupass"
-export DOTNET_CLI_TELEMETRY_OPTOUT=1 # disable .net telemetry
 export ZDOTDIR="$HOME/.config/zsh"
 #default config file
 export XDG_CONFIG_HOME="$HOME/.config"
